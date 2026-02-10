@@ -31,5 +31,5 @@ let resultado = calcularNivel(vitorias, derrotas);
 
 // Saída final
 console.log(
-    `O Herói tem de saldo de ${resultado.saldoVitorias} vitórias e está no nível de ${resultado.nivel}`
+    `O Herói tem um saldo de ${resultado.saldoVitorias} vitórias e está no nível ${resultado.nivel}`
 );
