@@ -19,7 +19,7 @@ function calcularNivel(vitorias, derrotas) {
         nivel = "Imortal";
     }
 
-    return { saldoVitorias, nivel };
+    return [saldoVitorias, nivel ];
 }
 
 // Exemplo de uso (simulação de partidas)
@@ -31,5 +31,5 @@ let resultado = calcularNivel(vitorias, derrotas);
 
 // Saída final
 console.log(
-    `O Herói tem um saldo de ${resultado.saldoVitorias} vitórias e está no nível ${resultado.nivel}`
+    `O Herói tem um saldo de ${resultado[0]} vitórias e está no nível ${resultado[1]}`
 );
